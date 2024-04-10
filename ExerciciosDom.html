@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="aula6.js"></script>
+    <script src="Exercicios.js"></script>
+
+</head>
+
+<body>
+    <div id="main"></div>
+    <form>
+        <input type="text" id="campo1">
+    </form>
+    <button onclick="teste()">OK</button>
+    <form>
+        Nome: <input type="text" id="nome"><br>
+        P1: <input type="number" id="P1"><br>
+        P2: <input type="number" id="P2"><br>
+    </form>
+    <button onclick="inserirTabela()">Cadastrar</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>P1</th>
+                <th>P2</th>
+                <th>Media</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <button onclick="chamadaLista()">Lista</button>
+
+    <br><br>
+
+    <button onclick="mudarDiv()">Mudar Div por P's</button>
+    <div id="listagem"></div>
+
+    <ul id="ul1">
+        <li>UM</li>
+        <li>DOIS</li>
+        <li>TRÊS</li>
+        <li>QUATRO</li>
+        <li>CINCO</li>
+    </ul>
+    <button onclick="testeInserir()"></button>
+
+    <ul id="ul2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <button onclick="removerLi()">Remover LI's</button>
+
+    <br><br>
+
+    <button onclick="removerLis()">Remover todas as LI's de todas as UL's</button>
+
+</body>
+
+</html>
